@@ -286,7 +286,7 @@ __help__ = """
  ❍ /country [country name] :Gathering info about given country
  ❍ /imdb [Movie name] :Get full info about a movie with imdb.com
  ❍ Masha [query] :Masha answers the query
-  💡Ex: `Masha where is India?`
+  💡Ex: `Bhabhi where is India?`
 """
 
 
