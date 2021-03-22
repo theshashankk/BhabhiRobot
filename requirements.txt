@@ -1,12 +1,14 @@
 future
 emoji
 lxml
+wget
 beautifulsoup4
-requests
+requests==2.20.0
 python-telegram-bot==12.8
 sqlalchemy==1.3.20
 psycopg2-binary
 feedparser
+hachoir
 pynewtonmath
 spongemock
 zalgo-text
@@ -20,10 +22,12 @@ CurrencyConverter
 google_trans_new
 jikanpy
 speedtest-cli
-coffeehouse
+coffeehouse==2.2.4
 regex
 bleach
 git+https://github.com/starry69/python-markdown2.git
+cloudmersive_virus_api_client
+cloudmersive_ocr_api_client
 wikipedia
 telethon
 telegraph
@@ -38,7 +42,6 @@ TgCrypto
 Pyrogram
 youtube-dl
 youtube_search
-requests
 asyncio
 dateparser==1.0.0
 pymongo==3.11.0
@@ -51,3 +54,4 @@ html2text
 bs4
 bing_image_downloader
 search_engine_parser
+pytz
