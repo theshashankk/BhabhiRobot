@@ -1,4 +1,4 @@
-from telethon.tl.types import UserStatusLastMonth, UserStatusLastWeek, UserStatusLastRecently ChatBannedRights
+from telethon.tl.types import UserStatusLastMonth, UserStatusLastWeek, UserStatusLastRecently, ChatBannedRights
 from MashaRoBot.events import register
 from telethon import *
 from telethon.tl.functions.channels import (EditBannedRequest)
