@@ -1,4 +1,4 @@
-from telethon.tl.types import UserStatusLastMonth, UserStatusLastWeek, UserStatusLastRecently, ChatBannedRights
+from telethon.tl.types import UserStatusLastMonth, UserStatusLastWeek, ChatBannedRights
 from MashaRoBot.events import register
 from telethon import *
 from telethon.tl.functions.channels import (EditBannedRequest)
@@ -27,7 +27,7 @@ async def _(event):
             else:
                c = c + 1
                     
-        if isinstance(i.status, UserStatusLastRecently):
+        if isinstance(i.status, UserStatusLastMonth):
             status = await event.client(EditBannedRequest(event.chat_id, i, KICK_RIGHTS))
             if not status:
                return
