@@ -1,5 +1,5 @@
 {
-      "name": "MashaRoBot",
+      "name": "ShizukaRoBot",
       "description": "Telegram group management bot.",
       "keywords": [
          "telegram",
@@ -8,7 +8,7 @@
          "manager",
          "Masha"
       ],   
-   "repository": "https://github.com/QueenArzoo/BhabhiRobot",
+   "repository": "https://github.com/theshashankk/BhabhiRobot",
    "addons": [
       {
          "options": {
