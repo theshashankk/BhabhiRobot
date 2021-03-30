@@ -74,38 +74,38 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-`Hellow` [🤗](https://telegra.ph/file/58093d4e2619239f6403b.jpg) `My name is` *BHABHI*
-`I'm here to help you manage your groups! Hit` *📚Commands* `button below to find out more about how to use me to my full potential.` 
+`Hellow` [🤗](https://telegra.ph/file/6d3faf98f11e4740b2608.jpg) `My name is` *SHIZUKA*
+`I'm here to help you manage your groups! And U can use me in fight also Hit` *📚Commands* `button below to find out more about how to use me to my full potential.` 
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ ADD MASHA TO YOUR GROUP ➕️", url="t.me/BhabhiRobot?startgroup=true"),
+            text="➕️ ADD SHIZUKA TO YOUR GROUP ➕️", url="t.me/Shizuka_robot?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text="ℹ️ ABOUT", callback_data="masha_"),
+        InlineKeyboardButton(text="ℹ️ ABOUT", callback_data="shizuka_"),
         InlineKeyboardButton(text="📚 COMMANDS", callback_data="help_back"),
     ],
     [
         InlineKeyboardButton(
             text="💾 SOURCE", callback_data="source_"),
         InlineKeyboardButton(
-            text="👥 SUPPORT", url="https://t.me/LaylaSupport"
+            text="👥 SUPPORT", url="https://t.me/ShizukaSupport"
         ),
     ],
 ]
 
 
 HELP_STRINGS = """
-`Hi.. I'm` [BHABHI🙋‍♀️](https://telegra.ph/file/58093d4e2619239f6403b.jpg)
+`Hi.. I'm` [Sizuka🙋‍♀️](https://telegra.ph/file/6d3faf98f11e4740b2608.jpg)
 `Click on the buttons below to get documentation about specific modules..`"""
 
 
-MASHA_IMG = "https://telegra.ph/file/58093d4e2619239f6403b.jpg"
+MASHA_IMG = "https://telegra.ph/file/6d3faf98f11e4740b2608.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
- You can support the project via [HERO](t.me/HEROGAMERS1)"""
+ You can support the project via [Shashank](t.me/TheShashank)"""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -350,15 +350,15 @@ def Masha_about_callback(update, context):
     query = update.callback_query
     if query.data == "masha_":
         query.message.edit_text(
-            text=""" ℹ️ I'm *BHABHI*, a powerful group management bot built to help you manage your group easily.
+            text=""" ℹ️ I'm *Sizuka*, a powerful group management bot built to help you manage your group easily, and u can use me in fight.
                  \n❍ I can restrict users.
                  \n❍ I can greet users with customizable welcome messages and even set a group's rules.
                  \n❍ I have an advanced anti-flood system.
                  \n❍ I can warn users until they reach max warns, with each predefined actions such as ban, mute, kick, etc.
                  \n❍ I have a note keeping system, blacklists, and even predetermined replies on certain keywords.
                  \n❍ I check for admins' permissions before executing any command and more stuffs
-                 \nHere is the [💾Repository](https://github.com/QueenArzoo/LaylaRobot).
-                 \n\nIf you have any question about BHABHI, let us know at @LaylaSupport.""",
+                 \nHere is the [💾Repository](https://github.com/theshashankk/BhabhiRobot).
+                 \n\nIf you have any question about BHABHI, let us know at @ShizukaSupport.""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -384,8 +384,8 @@ def Source_about_callback(update, context):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi..🤗 I'm *BHABHI*
-                 \nHere is the [Source Code](https://github.com/QueenArzoo/LaylaRobot) .""",
+            text=""" Hi..🤗 I'm *SHIZUKA*
+                 \nHere is the [Source Code](https://github.com/theshashankk/BhabhiRobot) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
